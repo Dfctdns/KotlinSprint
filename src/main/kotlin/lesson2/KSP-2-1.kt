@@ -1,5 +1,12 @@
 package org.example.lesson2
 
 fun main() {
-    println((3f + 4f + 3f + 5f) / 4)
+
+    val firstStudentGrade = 3f
+    val secondStudentGrade = 3f
+    val thirdStudentGrade = 3f
+    val fourthStudentGrade = 3f
+
+
+    println((firstStudentGrade + secondStudentGrade + thirdStudentGrade + fourthStudentGrade) / 4)
 }
