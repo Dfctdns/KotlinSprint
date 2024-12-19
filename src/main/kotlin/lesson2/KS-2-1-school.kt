@@ -6,7 +6,7 @@ fun main() {
     val secondStudentGrade = 4f
     val thirdStudentGrade = 3f
     val fourthStudentGrade = 5f
+    val numberOfStudents = 4
 
-
-    println((firstStudentGrade + secondStudentGrade + thirdStudentGrade + fourthStudentGrade) / 4)
+    println((firstStudentGrade + secondStudentGrade + thirdStudentGrade + fourthStudentGrade) / numberOfStudents)
 }
