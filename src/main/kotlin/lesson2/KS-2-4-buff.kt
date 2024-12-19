@@ -4,9 +4,10 @@ fun main() {
 
     val crystalOre = 7
     val ironOre = 11
+    val buffPercent = 20
 
-    val buffedCrystalOre = (crystalOre * 0.2).toInt()
-    val buffedIronOre = (ironOre * 0.2).toInt()
+    val buffedCrystalOre = (crystalOre * buffPercent / 100).toInt()
+    val buffedIronOre = (ironOre * buffPercent / 100).toInt()
 
     println("$buffedCrystalOre, $buffedIronOre")
 
