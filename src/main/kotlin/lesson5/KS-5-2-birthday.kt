@@ -10,6 +10,6 @@ fun main() {
     var birthData = readln().toInt()
     val userAge = CURRENT_YEAR - birthData
 
-    if(userAge >= AGE_OF_MAJORITY) println("Показать экран со скрытым контентом")
+    if (userAge >= AGE_OF_MAJORITY) println("Показать экран со скрытым контентом")
 
 }
