@@ -1,7 +1,7 @@
 package org.example.lesson4
 
+const val NUMBER_OF_SEATS = 13
 
-    const val NUMBER_OF_SEATS = 13
 fun main() {
 
     val bookedSeatsToday = 13
