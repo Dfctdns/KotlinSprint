@@ -11,9 +11,11 @@ fun main() {
     print("Введите второе число: ")
     var secondInput = readln()
 
-    if ((firstInput == firstNumber && secondInput == secondNumber) || (firstInput == secondNumber && secondInput == firstNumber))
+    if ((firstInput == firstNumber && secondInput == secondNumber) ||
+        (firstInput == secondNumber && secondInput == firstNumber))
         println("Поздравляем! Вы выйграли главный приз!")
-    else if (firstInput == firstNumber || secondInput == secondNumber || secondInput == firstNumber || firstInput == secondNumber)
+    else if (firstInput == firstNumber || secondInput == secondNumber ||
+        secondInput == firstNumber || firstInput == secondNumber)
         println("Поздравляем! Вы выйграли утешительный приз!")
     else
         println("Неудача!")
