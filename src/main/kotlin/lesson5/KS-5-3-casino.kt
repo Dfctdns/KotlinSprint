@@ -11,15 +11,9 @@ fun main() {
     print("Введите второе число: ")
     var secondInput = readln()
 
-    if (secondInput < firstInput) {
-        val n = firstInput
-        firstInput = secondInput
-        secondInput = n
-    }
-
-    if (firstInput == firstNumber && secondInput == secondNumber)
+    if ((firstInput == firstNumber && secondInput == secondNumber) || (firstInput == secondNumber && secondInput == firstNumber))
         println("Поздравляем! Вы выйграли главный приз!")
-    else if (firstInput == firstNumber || secondInput == secondNumber)
+    else if (firstInput == firstNumber || secondInput == secondNumber || secondInput == firstNumber || firstInput == secondNumber)
         println("Поздравляем! Вы выйграли утешительный приз!")
     else
         println("Неудача!")
