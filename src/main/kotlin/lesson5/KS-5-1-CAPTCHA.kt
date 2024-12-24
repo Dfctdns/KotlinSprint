@@ -1,13 +1,13 @@
 package org.example.lesson5
 
-const val PROBLEM = "2 + 2"
-const val CORRECT_ANSWER = 4
 fun main() {
 
-    print("Решите пример: $PROBLEM = ")
+    val summandFirst = 2
+    val summandSecond = 2
+    print("Решите пример: $summandFirst + $summandSecond = ")
     var answer = readln().toInt()
 
-    if (answer == CORRECT_ANSWER) println("Добро пожаловать!")
+    if (answer == summandFirst + summandSecond) println("Добро пожаловать!")
     else println("Доступ запрещен")
 
 }
